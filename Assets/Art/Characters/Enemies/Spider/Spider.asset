@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  name: Arachnotox
+  description: Sludge mutated spider
+  frontSprite: {fileID: 21300000, guid: c7618096559cf4f019554c1f4a38ba01, type: 3}
+  backSprite: {fileID: 21300000, guid: c7618096559cf4f019554c1f4a38ba01, type: 3}
+  type1: 7
+  type2: 0
+  maxHp: 60
+  attack: 45
+  defense: 50
+  spAttack: 90
+  spDefense: 80
+  speed: 70
+  expYield: 178
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0dd88147d6dfd461a8a5a9f3f542bff3, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 446dbe74c5ebc40429d16334761e1d46, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4b1df0c766e2f4d76a73f23adb9c3e83, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

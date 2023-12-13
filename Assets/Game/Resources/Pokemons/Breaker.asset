@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Breaker
+  m_EditorClassIdentifier: 
+  name: Breaker
+  description: 
+  frontSprite: {fileID: 21300000, guid: f0e86c5c5648f40b2b8d9ff4cc69bcb0, type: 3}
+  backSprite: {fileID: 21300000, guid: f0e86c5c5648f40b2b8d9ff4cc69bcb0, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 100
+  attack: 100
+  defense: 100
+  spAttack: 90
+  spDefense: 90
+  speed: 70
+  expYield: 64
+  growthRate: 1
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e395c18ab23d6460f8fb46880fb8c6e8, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: eaf8c8aff1b7e4cc68606aef7951aaf9, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 832601b70454e4c88b6ec6db702bdac3, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: eb21a1a5d624a486f9e7f1995008db78, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 215f0c4afd126448fa852defd2da7665, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 24b757901423a4a2fa7d32b5bbb966e6, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: bf887a0cec7b94d97b30ad03cb268042, type: 2}
+    level: 0
+  learnableByItems:
+  - {fileID: 11400000, guid: 821d117e81b2d40759cb1e61c39330aa, type: 2}
+  - {fileID: 11400000, guid: e395c18ab23d6460f8fb46880fb8c6e8, type: 2}
+  - {fileID: 11400000, guid: 974c557c4fe12452b951a7c6594e8af4, type: 2}
+  - {fileID: 11400000, guid: 9910b76e5f5ee474fab40db30c750043, type: 2}
+  - {fileID: 11400000, guid: cdeac2f2f3ff348088d0fd6cecb4af74, type: 2}
+  - {fileID: 11400000, guid: eaf8c8aff1b7e4cc68606aef7951aaf9, type: 2}
+  - {fileID: 11400000, guid: 3ab881d23ddb14ce9b07d55afe8e9eaa, type: 2}
+  - {fileID: 11400000, guid: 762de6ffdae0f47baa25590dc97c1d08, type: 2}
+  - {fileID: 11400000, guid: 15c0279bce6054f809d5675fdfd9f15f, type: 2}
+  - {fileID: 11400000, guid: bf887a0cec7b94d97b30ad03cb268042, type: 2}
+  - {fileID: 11400000, guid: eb21a1a5d624a486f9e7f1995008db78, type: 2}
+  - {fileID: 11400000, guid: 60d8f622fb45c4245a9603113cf25074, type: 2}
+  evolutions: []

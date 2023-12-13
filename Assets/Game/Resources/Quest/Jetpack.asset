@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4485fdcbe5b4e65b99acd96923daa1, type: 3}
+  m_Name: Jetpack
+  m_EditorClassIdentifier: 
+  name: Jetpack
+  description: 
+  startDialogue:
+    lines:
+    - 'Miles: Bring back a Heatcore when you can, I''ll get your Jetpack finished!'
+  inProgressDialogue:
+    lines:
+    - 'Miles: Bring back a Heatcore when you can, I''ll get your Jetpack finished!'
+  completedDialogue:
+    lines:
+    - 'Miles: You got a heatcore! Hold one one sec...'
+    - 'Miles: Here''s your Jetpack! '
+    - 'Miles: It should work just like before you got shot down.'
+    - 'Miles: Don''t forget to equip it! You can also use it in battle to increase
+      your speed!'
+  requiredItem: {fileID: 11400000, guid: a2d69c5d5925d4e138777503904fb148, type: 2}
+  rewardItem: {fileID: 11400000, guid: f3179082c90454a1bbe32bbf0c778c14, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Lizard
+  m_EditorClassIdentifier: 
+  name: Lizard
+  description: NIdoran male
+  frontSprite: {fileID: 21300000, guid: bbb277d5658384da7bcaff8b50090ba5, type: 3}
+  backSprite: {fileID: 21300000, guid: e5909b24f42a244aeac2a0399ce2afcd, type: 3}
+  type1: 2
+  type2: 7
+  maxHp: 46
+  attack: 57
+  defense: 40
+  spAttack: 40
+  spDefense: 40
+  speed: 50
+  expYield: 55
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7aabe3fb4633c4a4d910a5a2fa54f4c7, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4b1df0c766e2f4d76a73f23adb9c3e83, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0545dd89957634ede9a7fbb22831d4f9, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 07c0526bc99974f4f82719f5b4d31068, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

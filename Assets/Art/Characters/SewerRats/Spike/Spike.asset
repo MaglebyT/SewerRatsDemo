@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Spike
+  m_EditorClassIdentifier: 
+  name: Spike
+  description: '*Smacks fist into other open hand*
+
+    Nidoking'
+  frontSprite: {fileID: 21300000, guid: 261fb21f68f7d438a8ed21e38f48d109, type: 3}
+  backSprite: {fileID: 21300000, guid: 261fb21f68f7d438a8ed21e38f48d109, type: 3}
+  type1: 7
+  type2: 5
+  maxHp: 81
+  attack: 92
+  defense: 77
+  spAttack: 75
+  spDefense: 75
+  speed: 85
+  expYield: 195
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 4b1df0c766e2f4d76a73f23adb9c3e83, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 24b757901423a4a2fa7d32b5bbb966e6, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 370ae043ef6d249b08bb37741ebc4424, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 16e4f4c07e0e94426b5c3bcbae5ce2da, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: BBBanditMage
+  m_EditorClassIdentifier: 
+  name: Blazing Bandit Wizard
+  description: 
+  frontSprite: {fileID: 21300000, guid: 921e5d6dd41394862a096fcea82b3336, type: 3}
+  backSprite: {fileID: 21300000, guid: 921e5d6dd41394862a096fcea82b3336, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 50
+  attack: 50
+  defense: 50
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  expYield: 70
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3ba3a2670af11461cb6fe122cd2dd96c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 07c0526bc99974f4f82719f5b4d31068, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 60dfa35ff788f442c8a4577b948d9b54, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

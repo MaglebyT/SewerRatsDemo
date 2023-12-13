@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: BlastBanditBoss
+  m_EditorClassIdentifier: 
+  name: BB Boss
+  description: 
+  frontSprite: {fileID: 21300000, guid: ce767c63efa0d4bd3a9ae150f5a27ed9, type: 3}
+  backSprite: {fileID: 21300000, guid: ce767c63efa0d4bd3a9ae150f5a27ed9, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 100
+  attack: 80
+  defense: 80
+  spAttack: 70
+  spDefense: 70
+  speed: 40
+  expYield: 100
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 60d8f622fb45c4245a9603113cf25074, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 16e4f4c07e0e94426b5c3bcbae5ce2da, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 07c0526bc99974f4f82719f5b4d31068, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

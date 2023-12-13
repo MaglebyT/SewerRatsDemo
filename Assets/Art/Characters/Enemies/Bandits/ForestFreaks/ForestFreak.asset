@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: ForestFreak
+  m_EditorClassIdentifier: 
+  name: Forest Freak
+  description: 
+  frontSprite: {fileID: 21300000, guid: ba740128f29a0441f9985dcb37704970, type: 3}
+  backSprite: {fileID: 21300000, guid: ba740128f29a0441f9985dcb37704970, type: 3}
+  type1: 5
+  type2: 0
+  maxHp: 50
+  attack: 65
+  defense: 65
+  spAttack: 50
+  spDefense: 50
+  speed: 45
+  expYield: 60
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: da2171b36e73547409ace6ad4c38419c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: d644c82b613e64327b17719fe885d019, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 60dfa35ff788f442c8a4577b948d9b54, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

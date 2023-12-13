@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4485fdcbe5b4e65b99acd96923daa1, type: 3}
+  m_Name: NoteReturn
+  m_EditorClassIdentifier: 
+  name: NoteReturn
+  description: Rejected
+  startDialogue:
+    lines:
+    - 'Breaker: Hi. Excuse me. I''m supposed to give you this note.'
+    - 'Girl: What''s this... Oh it''s a note.. from--Nooo I told him I didn''t want--'
+    - 'Girl: Ugh. Might as well read it. '
+    - '"Dear Girl. If I could only see you now. For about an hour. Maybe just a minute. '
+    - "Just to ask what he\u2019s got that I don\u2019t have. Is it his brown eyes?"
+    - "I know blue eyes are boring but I\u2019ll wear dark glasses all the time.\u201D"
+  inProgressDialogue:
+    lines: []
+  completedDialogue:
+    lines:
+    - "GIrl: Okay I can\u2019t keep reading this. I feel bad but UGH. Please give
+      him this note back."
+  requiredItem: {fileID: 11400000, guid: 1d6aacebefbf94a80b6a1f59e216c0a1, type: 2}
+  rewardItem: {fileID: 11400000, guid: 16ad1fae09c6c4db0bb2964a0973feca, type: 2}

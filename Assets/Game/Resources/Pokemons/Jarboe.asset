@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Jarboe
+  m_EditorClassIdentifier: 
+  name: Jarboe
+  description: Dumbath!
+  frontSprite: {fileID: 21300000, guid: 4a5f12cdb7b724bb791026208d7e2e15, type: 3}
+  backSprite: {fileID: 21300000, guid: 4a5f12cdb7b724bb791026208d7e2e15, type: 3}
+  type1: 1
+  type2: 7
+  maxHp: 50
+  attack: 10
+  defense: 10
+  spAttack: 20
+  spDefense: 20
+  speed: 10
+  expYield: 1000
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3ba3a2670af11461cb6fe122cd2dd96c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 2dc72ebd77f4b4212afa5dbf67ac916f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: da2171b36e73547409ace6ad4c38419c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 370ae043ef6d249b08bb37741ebc4424, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

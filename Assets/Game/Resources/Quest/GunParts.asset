@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4485fdcbe5b4e65b99acd96923daa1, type: 3}
+  m_Name: GunParts
+  m_EditorClassIdentifier: 
+  name: GunParts
+  description: quest
+  startDialogue:
+    lines:
+    - 'Miles: Bring the broken parts over'
+  inProgressDialogue:
+    lines:
+    - 'Miles: Parts are in the safe, over there to the right'
+  completedDialogue:
+    lines:
+    - 'Miles: You''ll need to activate weapons via A-Link before you can use them!'
+    - Once you have them linked, they are yours forever!
+  requiredItem: {fileID: 11400000, guid: d312e1fdb160c48c6b937e3a99f590ea, type: 2}
+  rewardItem: {fileID: 11400000, guid: 3d125c9687d9a4eef900ae1dc7a526e0, type: 2}

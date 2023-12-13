@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Punky
+  m_EditorClassIdentifier: 
+  name: Punky
+  description: Sewer Rat Punky
+  frontSprite: {fileID: 21300000, guid: c245f5412aa6744d0b56738c381149cc, type: 3}
+  backSprite: {fileID: 21300000, guid: 546f2d664dfba451b804659744d29376, type: 3}
+  type1: 7
+  type2: 1
+  maxHp: 60
+  attack: 50
+  defense: 50
+  spAttack: 40
+  spDefense: 60
+  speed: 10
+  expYield: 60
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2dc72ebd77f4b4212afa5dbf67ac916f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: c74a6dcce855d4ec2b560cdeaf544a6d, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 3ba3a2670af11461cb6fe122cd2dd96c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 8276e9053022448cabadb7c6188504b1, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 307366c565b8541e8998c17c9cab0126, type: 2}
+    level: 0
+  learnableByItems:
+  - {fileID: 11400000, guid: 99ec882cbf3d64ce1954791fd2f3ecf4, type: 2}
+  - {fileID: 11400000, guid: ef4f6d9a31cff4672a4bae15e4a589d7, type: 2}
+  - {fileID: 11400000, guid: 46aa61c0c64964150942c806398dd9b7, type: 2}
+  evolutions: []

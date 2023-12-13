@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: CaptainChrith
+  m_EditorClassIdentifier: 
+  name: Captian Chrith
+  description: Articuno
+  frontSprite: {fileID: 21300000, guid: f14c98c6e615948a88c384d7362c53ab, type: 3}
+  backSprite: {fileID: 21300000, guid: f14c98c6e615948a88c384d7362c53ab, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 90
+  attack: 85
+  defense: 100
+  spAttack: 95
+  spDefense: 125
+  speed: 85
+  expYield: 300
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3ba3a2670af11461cb6fe122cd2dd96c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 60d8f622fb45c4245a9603113cf25074, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

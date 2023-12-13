@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: DuaneJoseph
+  m_EditorClassIdentifier: 
+  name: Duane Joseph
+  description: Clef
+  frontSprite: {fileID: 21300000, guid: 94bb166d4d17341ceb5fabbcc0a7fa22, type: 3}
+  backSprite: {fileID: 21300000, guid: 94bb166d4d17341ceb5fabbcc0a7fa22, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 70
+  attack: 45
+  defense: 48
+  spAttack: 60
+  spDefense: 65
+  speed: 35
+  expYield: 113
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c735e30ba170f4175add6fe134504094, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 762de6ffdae0f47baa25590dc97c1d08, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 3ba3a2670af11461cb6fe122cd2dd96c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: a52b578b1792042dd81b9b06bdde935d, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: BlastMaker
+  m_EditorClassIdentifier: 
+  name: BlastMaker2000
+  description: 
+  frontSprite: {fileID: 21300000, guid: 66cbdd8cd5d7f43b8ab68a895ce27ba4, type: 3}
+  backSprite: {fileID: 21300000, guid: 66cbdd8cd5d7f43b8ab68a895ce27ba4, type: 3}
+  type1: 9
+  type2: 2
+  maxHp: 1
+  attack: 1
+  defense: 1
+  spAttack: 1
+  spDefense: 1
+  speed: 1
+  expYield: 1
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: eaf8c8aff1b7e4cc68606aef7951aaf9, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 07c0526bc99974f4f82719f5b4d31068, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

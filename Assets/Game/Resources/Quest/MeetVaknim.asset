@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4485fdcbe5b4e65b99acd96923daa1, type: 3}
+  m_Name: MeetVaknim
+  m_EditorClassIdentifier: 
+  name: MeetVaknim
+  description: 'First meet. '
+  startDialogue:
+    lines:
+    - 'Vaknim: Ah, Breaker. How are you feeling? '
+    - "Breaker: Memory is still a bit hazy, but physically I feel like I\u2019ve
+      been slow roasted in an electric chair. "
+    - "Vaknim: It will pass. Your reanimation wasn\u2019t cheap, but I\u2019ll give
+      you an opportunity to repay the debt."
+    - I also have one of your belongings, a jetpack which Miles is fixing to return
+      to you should you complete your task.
+    - "Breaker: \u2026"
+    - 'Vaknim: Breaker. Raze. I need you to do something for me. '
+    - "Our town water has been contaminated by a poison the people are calling \u201Csludge\u201D."
+    - "An intoxicating substance being created by a \u2018gang\u2019 who call themselves
+      The Sewer Rats. "
+    - "As you can guess, they have made the sewer into their hideout\u2014 living
+      rent free! "
+    - 'They are nothing more than a group of troubled youth bandit punks. Many of
+      which are from this community. '
+    - 'Can you imagine the shame they bring to their hard working relatives of my
+      town!? '
+    - 'Breaker: Okay so me and my mysterious sword guy companion here are supposed
+      to beat up the Sewer Rats?'
+    - "Raze: \u2026"
+    - 'Vaknim: Raze will accompany you, yes. He also has a debt to pay me. I have
+      other things I need to do right now. '
+    - Ask around town if you have questions.
+  inProgressDialogue:
+    lines: []
+  completedDialogue:
+    lines: []
+  requiredItem: {fileID: 0}
+  rewardItem: {fileID: 0}

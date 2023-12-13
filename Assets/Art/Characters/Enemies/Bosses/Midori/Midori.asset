@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Midori
+  m_EditorClassIdentifier: 
+  name: Midori
+  description: 
+  frontSprite: {fileID: 21300000, guid: 6e6f396dc02f649da818ed0e56c07583, type: 3}
+  backSprite: {fileID: 21300000, guid: 6e6f396dc02f649da818ed0e56c07583, type: 3}
+  type1: 5
+  type2: 0
+  maxHp: 1
+  attack: 1
+  defense: 1
+  spAttack: 1
+  spDefense: 1
+  speed: 1
+  expYield: 1
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 675842bebbe3940589bdab4d69969a09, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: b456e7d8324f740749267e02280d4cc4, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0545dd89957634ede9a7fbb22831d4f9, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

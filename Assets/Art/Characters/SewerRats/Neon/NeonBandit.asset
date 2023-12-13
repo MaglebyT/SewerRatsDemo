@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: NeonBandit
+  m_EditorClassIdentifier: 
+  name: Neon Bandit
+  description: Pika
+  frontSprite: {fileID: 21300000, guid: e2f4a94766d88461fadda9bf0f50d3cd, type: 3}
+  backSprite: {fileID: 21300000, guid: e2f4a94766d88461fadda9bf0f50d3cd, type: 3}
+  type1: 4
+  type2: 7
+  maxHp: 40
+  attack: 55
+  defense: 40
+  spAttack: 50
+  spDefense: 50
+  speed: 90
+  expYield: 112
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 99ec882cbf3d64ce1954791fd2f3ecf4, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: cca3a5500da9b46ab87b5896fcdb3365, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: da2171b36e73547409ace6ad4c38419c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4bd64440be5804e5ca193b372cc79749, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

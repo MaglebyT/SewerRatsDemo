@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4485fdcbe5b4e65b99acd96923daa1, type: 3}
+  m_Name: Emo
+  m_EditorClassIdentifier: 
+  name: EmoEnd
+  description: Emoflip
+  startDialogue:
+    lines:
+    - 'Emo Kid: Please hurry. The wait is killing me. I have to know how she responds. '
+  inProgressDialogue:
+    lines:
+    - 'Emo Kid: Any update?'
+  completedDialogue:
+    lines:
+    - 'Breaker: So... She didn''t take it well. Here''s a note back from her...'
+    - 'Emo Kid: Oh...'
+    - "Emo Kid: Even though this note is just her rejecting me, it has her handwriting
+      on it. I\u2019ll cherish it forever. "
+    - "Breaker: Sorry it didn\u2019t work out but I gotta get going\u2026 "
+    - 'Emo Kid: Thanks for your help. I want you to have this. I was going to give
+      it to her for a 1 year anniversary gift.'
+    - "Emo Kid: It\u2019s a plant that likes to eat things. I named it Rosey. "
+    - 'Breaker: (Odd gift, but I guess I''ll take it).'
+  requiredItem: {fileID: 11400000, guid: 16ad1fae09c6c4db0bb2964a0973feca, type: 2}
+  rewardItem: {fileID: 11400000, guid: 0cd2b179d4fa04b78891869c215f8e2c, type: 2}

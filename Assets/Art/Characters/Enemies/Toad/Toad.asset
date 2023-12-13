@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Toad
+  m_EditorClassIdentifier: 
+  name: Toad
+  description: 
+  frontSprite: {fileID: 21300000, guid: 00174788a8f1642ea9c8679f1dfa72ad, type: 3}
+  backSprite: {fileID: 21300000, guid: 00174788a8f1642ea9c8679f1dfa72ad, type: 3}
+  type1: 3
+  type2: 7
+  maxHp: 65
+  attack: 65
+  defense: 65
+  spAttack: 50
+  spDefense: 50
+  speed: 90
+  expYield: 135
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7aabe3fb4633c4a4d910a5a2fa54f4c7, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 86235981f77cf4619b18b7ca1c1bd5ff, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0545dd89957634ede9a7fbb22831d4f9, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4b1df0c766e2f4d76a73f23adb9c3e83, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

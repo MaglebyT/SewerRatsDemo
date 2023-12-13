@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Raze
+  m_EditorClassIdentifier: 
+  name: Raze
+  description: ...
+  frontSprite: {fileID: 21300000, guid: 76da6a9fa9b224e768a9d3204a867944, type: 3}
+  backSprite: {fileID: 21300000, guid: 76da6a9fa9b224e768a9d3204a867944, type: 3}
+  type1: 1
+  type2: 2
+  maxHp: 100
+  attack: 50
+  defense: 60
+  spAttack: 20
+  spDefense: 20
+  speed: 20
+  expYield: 100
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6dce897deaa5c41ba87b482c9266c611, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 821d117e81b2d40759cb1e61c39330aa, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 1228b8d390f5d4d4c87308d083d76d86, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 16e4f4c07e0e94426b5c3bcbae5ce2da, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: cc788e4e2d8314d79b23af101557a7dc, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 15c0279bce6054f809d5675fdfd9f15f, type: 2}
+    level: 0
+  learnableByItems:
+  - {fileID: 11400000, guid: 224c4bdae408f4a5f982e2749ee6b770, type: 2}
+  - {fileID: 11400000, guid: 09655fc2dfd844bfaba8fe370962039f, type: 2}
+  - {fileID: 11400000, guid: 1228b8d390f5d4d4c87308d083d76d86, type: 2}
+  - {fileID: 11400000, guid: cc788e4e2d8314d79b23af101557a7dc, type: 2}
+  - {fileID: 11400000, guid: 4eda6b6ecfec34c7cbbbc699ffe67089, type: 2}
+  - {fileID: 11400000, guid: fe5d8400a26e64db184fcf2c47ade771, type: 2}
+  - {fileID: 11400000, guid: 7adaff1627ba24b38b6d7aa6f12ff546, type: 2}
+  - {fileID: 11400000, guid: 21f16b086184b44988eecb966ff2b565, type: 2}
+  - {fileID: 11400000, guid: effd0e807ee1d4130b3e2a2813aae433, type: 2}
+  - {fileID: 11400000, guid: 15c0279bce6054f809d5675fdfd9f15f, type: 2}
+  - {fileID: 11400000, guid: 470496c97412f4caf9a397ef48c9e07f, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: a5f6bc32cde0d4a4f8e1c860ef8f81e9, type: 2}
+    requiredLevel: 30
+    requiredItem: {fileID: 0}

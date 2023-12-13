@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b38a6fc2b7724c9caae9314abc91c6a, type: 3}
+  m_Name: Jetpack
+  m_EditorClassIdentifier: 
+  name: Jetpack
+  description: 'Fly High, Skyking.
+
+    Speed +6'
+  type: 1
+  power: 0
+  accuracy: 100
+  alwaysHits: 0
+  pp: 10
+  priority: 0
+  category: 2
+  effects:
+    boosts:
+    - stat: 4
+      boost: 6
+    status: 0
+    volatileStatus: 0
+  secondaries: []
+  target: 1
+  hitRange: {x: 0, y: 0}
+  sound: {fileID: 8300000, guid: 73eb58b2ecfd1490f82475a63526f3f6, type: 3}

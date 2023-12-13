@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Kage
+  m_EditorClassIdentifier: 
+  name: Kage
+  description: 
+  frontSprite: {fileID: 21300000, guid: 5dabd1c7058484089bbcfa7f82c966a6, type: 3}
+  backSprite: {fileID: 21300000, guid: 5dabd1c7058484089bbcfa7f82c966a6, type: 3}
+  type1: 6
+  type2: 0
+  maxHp: 100
+  attack: 1
+  defense: 1
+  spAttack: 1
+  spDefense: 1
+  speed: 1
+  expYield: 1
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: fe5d8400a26e64db184fcf2c47ade771, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 394b8135c7aee4161b015a6823c35c37, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0009050dce193489d887a866cd9204dc, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 470496c97412f4caf9a397ef48c9e07f, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []

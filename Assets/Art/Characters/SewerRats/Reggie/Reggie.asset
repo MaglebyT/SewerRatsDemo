@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447fc0ddb8ab443419e4b44a40603ed3, type: 3}
+  m_Name: Reggie
+  m_EditorClassIdentifier: 
+  name: Reggie
+  description: In full effect.
+  frontSprite: {fileID: 21300000, guid: 25291f52b88b4471ba61ce443b51d59f, type: 3}
+  backSprite: {fileID: 21300000, guid: 25291f52b88b4471ba61ce443b51d59f, type: 3}
+  type1: 7
+  type2: 2
+  maxHp: 45
+  attack: 49
+  defense: 49
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  expYield: 75
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2dc72ebd77f4b4212afa5dbf67ac916f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 3ba3a2670af11461cb6fe122cd2dd96c, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 215f0c4afd126448fa852defd2da7665, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4b1df0c766e2f4d76a73f23adb9c3e83, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
